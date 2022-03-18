@@ -3,28 +3,33 @@
   <head>
     <meta charset="utf-8">
     <title>Moje książki</title>
+    <meta name="viewport" content="width=device-width, initial_scale=1.0">
+    <link rel="stylesheet" href="style.css"
   </head>
   <body>
     <nav>
       <h1>Dobre książki</h1>
       <form>
-        <input type="text" placeholder="Jak wytresować pingwina?">
+        <input type="search" name="searchPhrase" placeholder="Jak wytresować pingwina?">
         <button type="submit">Szukaj</button>
       </form>
-      <a href="user.html">Mój profil</a>
-      <a href="#">Zaloguj</a>
+      <div>
+        <a href="user.html">Mój profil</a>
+        <a href="login.html">Zaloguj</a>
+      </div>
     </nav>
-    <img src="kot.jpg" at="Lamp" width="250" height="250">
     <main>
-      <h1>IMIĘ I NAZWISKO</h1>
-      <p>Konto aktywne od 02.10.2021r</p>
-
-      <ul>
-        <li>Recenzje</li>
-        <li>Polecone</li>
-        <li>Ulubione</li>
-        <li>Czarna lista</li>
-      </ul>
+      <section>
+        <img src="kot.jpg" alt="Zdjęcie profilowe" width="250" height="250">
+        <h1>IMIĘ I NAZWISKO</h1>
+        <p>Konto aktywne od 02.10.2021r</p>
+        <ul>
+          <li>Recenzje</li>
+          <li>Polecone</li>
+          <li>Ulubione</li>
+          <li>Czarna lista</li>
+        </ul>
+      </section>
     </main>
     <footer>
         <p>All rights reserved &copy 2022</p>

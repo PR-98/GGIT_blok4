@@ -1,0 +1,38 @@
+nav, footer, section{
+  background: #F4EEFF;
+}
+
+body {
+  margin: 0;
+  background: #DCD6F7;
+}
+
+nav {
+  padding: 12px;
+}
+
+nav > * {
+  width: 33%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+form {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+section{
+  width: 300px;
+  margin: 15px auto;
+  padding: 15;
+}
+
+img {
+  border-radius: 35px;
+}
